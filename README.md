@@ -22,6 +22,6 @@ python3 pypong.py
 Up - W key
 Down - S Key
 
-## Player 2 controls
+## Player 2 controls:
 Up - Up key
 Down - Down key
