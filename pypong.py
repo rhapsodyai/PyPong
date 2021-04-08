@@ -87,7 +87,6 @@ def main():
     background_colour = (0,0,0)  # black background color
     object_color = (255,255,255) # white object color
     score_color = (128,128,128)  # score color
-    # red_color = (255,0,0)        # red color
 
     # variables - misc
     ball_size = (10,10)
@@ -144,6 +143,8 @@ def main():
         else:
             ball_pos[1]-=BALL_SPEED
 
+        # update paddle positions
+
 
         #check for goal
         if(ball_pos[0] < 0):
@@ -169,11 +170,12 @@ def main():
         draw_centroid()
 
         # draw scores
+        # draw p1 score
         draw_score((SCREEN_WIDTH/4)-25, 20, p1score)
+
+        # draw p2 score
         draw_score((SCREEN_WIDTH-(SCREEN_WIDTH/4))-25, 20, p2score)
 
-        #draw0((SCREEN_WIDTH-(SCREEN_WIDTH/4))-25, 20)
-        #draw3((SCREEN_WIDTH/4)-25, 20)
 
         # draw ball
         draw_rect(ball_pos[0], ball_pos[1], ball_size[0], ball_size[1])
