@@ -25,3 +25,6 @@ Down - S Key
 ## Player 2 controls:
 Up - Up key
 Down - Down key
+
+## Development process:
+I learned how to draw squares in Pygame and read keyboard input from various tutorials. After I knew how to draw the boxes and read input from the keyboard I created the rest of game by myself from that knowledge.
