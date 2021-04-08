@@ -1,4 +1,4 @@
-A quick clone of the hit game Pong! A blast hit party from the 70s, Pong is one of the first games ever made, and an important piece of video game history.
+A quick clone of the hit game Pong! A blast hit party game from the 70s, Pong is one of the first electronic games ever made, and an important piece of video game history.
 
 # Installation Instructions
 
